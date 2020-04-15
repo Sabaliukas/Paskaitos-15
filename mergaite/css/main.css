@@ -27,18 +27,32 @@ body {
             float: right;
             margin-top: 20px;
             font-size: 20px;
+            text-decoration: none;
 
         }
             a {
                 display: inline-block;
                 float: left;
-                margin-right: 40px;
+                padding: 4px;
+                margin-right: 25px;
                 font-size: 20px;
                 line-height: 20px;
+                color: #BCBCBC;
+                text-decoration: none;
 
 
             }
                 .btn {
+                    /* margin-top: -4px; */
+                    padding: 2px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border: 2px solid #BCBCBC;
+                    border-radius: 30px;
+                    
+
+                   
+                    
 
                 }
     section{
@@ -55,13 +69,22 @@ body {
             margin-top: 80px;
             margin-left: 2%;
             margin-right: 2%;
+            color: #9E9E9E;
 
         }
             h1 { 
+                display: inline-block;
+                width: 100%;
+                font-size: 80px;
+                line-height: 80px;
 
             }
             
             p {
+                display: inline-block;
+                width: 100%;
+                font-size: 40px;
+                line-height: 40px;
 
             }
         
