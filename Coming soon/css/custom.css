@@ -1,0 +1,38 @@
+.container {
+    display: inline-block;
+    width: 100%;
+    padding: 80px;
+}
+    .container.hero {
+        background-color: blue;
+        background-image: url(../img/coming\ soon.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        }
+    .container.content {
+        background-color: white;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        }
+    .container.footer {
+        background-color: blue;
+        padding-top: 10px;
+        padding-bottom: 80px;
+        }
+    .container > .hero-row {
+        display: inline-block;
+        width: 600px;
+        margin-left: calc(50% - 300px);
+        background-color: palegoldenrod;
+        }
+    .container > .row {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc(50% - 500px);
+        background-color: darkolivegreen;
+        }
+
+    
