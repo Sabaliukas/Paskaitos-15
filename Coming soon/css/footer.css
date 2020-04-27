@@ -1,20 +1,24 @@
 footer.container {
+    padding: 0 0 40px;
     background-color: #03A9F3;
     color: #fff;
     text-align: center;
 }
 
 footer > .row:nth-child(1) {
-   border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #fff;
     
 }
-    footer .social-link {
+    footer .fa {
         width: 40px;
         color: #fff;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 40px;
-        text-align: center ;
+        text-align: center;
+        text-decoration: none;
     }
+        
  
 
 footer > .row:nth-child(2) {
@@ -74,4 +78,3 @@ footer > .row:nth-child(2) {
         margin: 0;
     }
 }
-© 2020 GitHub, Inc.
