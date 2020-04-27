@@ -1,0 +1,1 @@
+.form{display:inline-block;width:100%}.form>input,.form>textarea{display:inline-block;width:100%;float:left;padding:5px 0;margin-bottom:20px;font-size:22px;line-height:30px;border:none;border-bottom:1px solid #999}.form>textarea{resize:vertical;min-height:99px;max-height:300px}.form>.half{width:calc(50% - 10px)}.form>.half+.half{margin-left:20px}

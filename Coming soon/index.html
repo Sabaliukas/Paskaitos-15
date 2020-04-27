@@ -4,35 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon</title>
+    <!-- reset -->
     <link rel="stylesheet" href="./css/reset.css">
+    <!-- 3rd party -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- your atomic elements -->
     <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./css/clock.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/mouse.css">
     <link rel="stylesheet" href="./css/progress-bar.css">
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <!-- layout -->
+    <link rel="stylesheet" href="./css/layout.css">
+    <!-- structure -->
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <div class="container hero">
-        <div class="hero-row">
-            HERO CONTENT
+        <div class="row">
+            <img src="./img/logo.png" alt="Logo">
+            <h1>Coming soon</h1>
+            <p>Lorem ipsum dolor sit amet consectetur elit. Quaerat natus assumenda autem id unde fugiat!</p>
+            <div class="clock">
+                <div class="time">
+                    <div class="value">432</div>
+                    <div class="label">days</div>
+                </div>
+                <div class="time">
+                    <div class="value">09</div>
+                    <div class="label">hours</div>
+                </div>
+                <div class="time">
+                    <div class="value">37</div>
+                    <div class="label">minutes</div>
+                </div>
+                <div class="time">
+                    <div class="value">39</div>
+                    <div class="label">seconds</div>
+                </div>
+            </div>
+            <form class="form">
+                <input type="email" placeholder="Type your email">
+                <div class="btn btn-red">Subscribe now</div>
+            </form>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
         </div>
     </div>
-    <div class="container content">
+    <main class="container">
         <div class="row">
             <div class="left">
-                LEFT CONTENT
+                <h2>About startup</h2>
+                <p>Lorem ipsum dolor sit amet consectetur quae officia praesentium adipisicing elit inventore <a href="#">Matrox</a> neque, quam beatae vero repellat tempore natus facere reiciendis, blanditiis, nihil tenetur modi eos id voluptatem soluta?</p>
+                <div class="progress-bar">
+                    <div class="texts">
+                        <div class="title">UX design</div>
+                        <div class="value">90%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width: 90%;">
+                            <div class="loading"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="texts">
+                        <div class="title">Web design</div>
+                        <div class="value">50%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width: 50%;">
+                            <div class="loading"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="texts">
+                        <div class="title">Web development</div>
+                        <div class="value">86%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width: 86%;">
+                            <div class="loading"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="texts">
+                        <div class="title">Melagis</div>
+                        <div class="value">10%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width: 10%;">
+                            <div class="loading"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="right">
-                RIGHT CONTENT
+                <h2>Have any question?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="mailto:myemail@email.com">myemail@email.com</a> molestiae itaque illo aut sit recusandae, dolore, consequuntur numquam molestias iure fuga! Sed eos expedita mollitia ratione illo tempore, dolores rem.</p>
+                <form class="form">
+                    <input class="half" type="text" placeholder="Name">
+                    <input class="half" type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <div class="btn btn-red">Send message</div>
+                </form>
             </div>
         </div>
-    </div>
-    <footer class="container footer">
+    </main>
+    <footer class="container">
         <div class="row">
-            FOOTER
+            <a href="#" class="social-link">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa fa-tumblr" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fa fa-rss"aria-hidden="true"></i>
+            </a>
         </div>
-    </footer> 
+        <div class="row">
+            <img class="footer-logo" src="./img/footer-logo.png" alt="Footer logo">
+            <div class="texts">
+                <p>Copyright &copy; 2020 <a href="#">Matrox</a></p>
+                <p>All rights reserved</p>
+                <p>Designed by <a href="#" target="_blank">TrendyTheme</a></p>
+            </div>
+            <p class="footer-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, doloribus doloremque. Porro ducimus animi blanditiis quidem nisi <a href="#">Matrox</a> minima nam.</p>
+        </div>
+    </footer>
 </body>
 </html>

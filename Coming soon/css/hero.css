@@ -1,0 +1,118 @@
+.hero {
+    padding-bottom: 30px;
+    background-color: #03A9F3;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 100vh;
+}
+    .hero > .row {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+    }
+    .hero img {
+        width: 40px;
+        margin-bottom: 40px;
+    }
+    .hero h1 {
+        width: 100%;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .hero p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+        color: #555;
+    }
+    .hero .clock {
+        width: 100%;
+        margin: 80px 0;
+        color: #fff;
+    }
+        .hero .clock > .time {
+            width: 25%;
+            float: left;
+        }
+            .clock > .time > .value {
+                width: 100%;
+                font-size: 70px;
+                line-height: 70px;
+            }
+            .clock > .time > .label {
+                width: 100%;
+                font-size: 20px;
+                line-height: 20px;
+            }
+    .hero .form {
+        width: 90%;
+        margin: 0 5% 20px;
+    }
+        .hero .form > input {
+            background-color: transparent;
+            color: #fff;
+            border-bottom-color: #fff;
+            outline: none
+        }
+        .hero .form > input::placeholder {
+            color: #fff;
+        }
+    .hero .mouse {
+        width: 160px;
+        height: 260px;
+        background-color: transparent;
+        border: 20px solid #fff;
+        border-radius: 80px;
+    }
+        .hero .mouse > .wheel {
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            margin-top: 30px;
+            border-radius: 5px;
+            animation: mouse 1.5s ease-out 0s infinite normal forwards;
+            background-image: url(../img/mouse.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+            .hero .mouse > .wheel:hover {
+                animation-play-state: paused;
+            }
+
+@keyframes mouse {
+    0% {
+        margin-top: 30px;
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 120px;
+        opacity: 0;
+        /* transform: rotate(1800deg); */
+    }
+}
+
+@media (max-width: 700px) {
+    .hero > .row {
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 500px) {
+    .hero .clock > .time {
+        width: 50%;
+    }
+        .hero .clock > .time:nth-child(1),
+        .hero .clock > .time:nth-child(2) {
+            margin-bottom: 30px;
+        }
+}
