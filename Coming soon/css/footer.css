@@ -8,6 +8,7 @@ footer.container {
 footer > .row:nth-child(1) {
     padding: 10px 0;
     border-bottom: 2px solid #fff;
+    position: relative;
     
 }
     footer .fa {

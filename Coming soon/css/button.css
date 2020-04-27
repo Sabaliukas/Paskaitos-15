@@ -44,9 +44,11 @@
     .btn.btn-circle {
         width: 50px;
         padding: 0;
-        font-size: 28px;
+        font-size: 20px;
         line-height: 50px;
         border-radius: 50%;
         text-align: center;
         box-shadow: 0 2px 4px #3338;
+        
+        
     }
