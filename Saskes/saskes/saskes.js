@@ -13,16 +13,8 @@ function renderSaskes ( size ) {
             <div class="cell white" style="width: 12.5%;"></div>
             <div class="cell black" style="width: 12.5%;"></div>
             <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
         </div>
         <div class="row" style="height: 12.5%;">
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
             <div class="cell white" style="width: 12.5%;"></div>
             <div class="cell black" style="width: 12.5%;"></div>
             <div class="cell white" style="width: 12.5%;"></div>
@@ -33,56 +25,8 @@ function renderSaskes ( size ) {
             <div class="cell white" style="width: 12.5%;"></div>
             <div class="cell black" style="width: 12.5%;"></div>
             <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-        </div>
-        <div class="row" style="height: 12.5%;">
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
         </div>   
         <div class="row" style="height: 12.5%;">
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-        </div>
-        <div class="row" style="height: 12.5%;">
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-        </div>   
-        <div class="row" style="height: 12.5%;">
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-        </div>
-        <div class="row" style="height: 12.5%;">
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
             <div class="cell white" style="width: 12.5%;"></div>
             <div class="cell black" style="width: 12.5%;"></div>
             <div class="cell white" style="width: 12.5%;"></div>

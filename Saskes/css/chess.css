@@ -16,7 +16,7 @@ body{
     margin-top: calc( (100vh - 400px) / 2 );
     margin-left: calc( (100% - 400px) / 2 );
     background-color: red;
-    border: 10px solid grey;
+    border: 10px solid blue;
 }
 
 
@@ -34,8 +34,9 @@ body{
         width: 12.5%;
         height: 100%;
         float: left;
-    }
-    
+        
+}
+
         .white {
             background-color: white;
 }
