@@ -1,42 +1,41 @@
-"use strict"
+"use strict" ;
 
-function renderSaskes ( size ) {
+function renderBoard ( size ) {
     let HTML = '';
-    const DOMsaskes = document.querySelector('.board');
-    
+    const DOMboard = document.querySelector('.board');
+
     // validacija
 
     // logika
-    HTML = `
-        <div class="row" style="height: 12.5%;">
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-        </div>
-        <div class="row" style="height: 12.5%;">
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-        </div>
-        <div class="row" style="height: 12.5%;">
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-        </div>   
-        <div class="row" style="height: 12.5%;">
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            <div class="cell white" style="width: 12.5%;"></div>
-            <div class="cell black" style="width: 12.5%;"></div>
-            </div>`;
-    ;
-    DOMsaskes.innerHTML = HTML
 
+    HTML = `
+    <div class="row" style="height: 25%;">
+        <div class="cell black" style="width: 25%;"></div>
+        <div class="cell white" style="width: 25%;"></div>
+        <div class="cell black" style="width: 25%;"></div>
+        <div class="cell white" style="width: 25%;"></div>
+    </div>
+    <div class="row" style="height: 25%;">
+        <div class="cell white" style="width: 25%;"></div>
+        <div class="cell black" style="width: 25%;"></div>
+        <div class="cell white" style="width: 25%;"></div>
+        <div class="cell black" style="width: 25%;"></div>
+    </div>
+    <div class="row" style="height: 25%;">
+        <div class="cell black" style="width: 25%;"></div>
+        <div class="cell white" style="width: 25%;"></div>
+        <div class="cell black" style="width: 25%;"></div>
+        <div class="cell white" style="width: 25%;"></div>
+    </div>
+    <div class="row" style="height: 25%;">
+        <div class="cell white" style="width: 25%;"></div>
+        <div class="cell black" style="width: 25%;"></div>
+        <div class="cell white" style="width: 25%;"></div>   
+        <div class="cell black" style="width: 25%;"></div>
+    </div> `;
+    DOMboard.innerHTML = HTML;
 
     return;
 }
 
-renderSaskes( 8 );
+renderBoard( 8 );
