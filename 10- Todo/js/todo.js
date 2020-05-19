@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 // render TODO list items
 function renderList( list ) {
@@ -18,10 +18,8 @@ function renderList( list ) {
             </div>`;
     }
 
-    return listPlace.innerHTML += HTML;
+    return listPlace.insertAdjacentHTML('beforeend', HTML);
 }
-
-
 
 /*******************************
     GENERATE CONTENT
@@ -89,6 +87,8 @@ function addNewTodoItem() {
         deadline: DOMdeadlineInput.value.trim(),
         status: 'todo'
     };
+    
+    console.log(newTodo);
 
     if ( newTodo.description.length === 0 ) {
         return alert('ERROR: tuscias aprasymas');
@@ -99,12 +99,8 @@ function addNewTodoItem() {
         return alert('ERROR: nevalidus deadline');
     }
     
-    console.log( newTodo);
-
     todo_list.push( newTodo );
-
-    console.log( todo_list );
-    
+    renderList( todo_list );
     return;
 }
 
